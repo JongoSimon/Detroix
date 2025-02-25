@@ -4,6 +4,17 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.smallnavbar {
+    background-color: #0b0b31;
+    padding: 10px;
+    
+}
+.headbar {
+    color: #f0f0f6;
+    float: right;
+    padding: 5px;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -34,28 +45,14 @@ nav a :hover {
 .heading {
     width: 100%;
     height: 90vh;
-    background-image: url(./image/img.png);
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center; 
   
 }
-#a {
-   position: absolute;
-   margin-left: -700px;
-   margin-top: -100px;
-}
-#herop {
-   position: absolute;
-   margin-left: -700px;
-   margin-top: -65px;
-}
-#herob {
-   position: absolute;
-   margin-left: -700px;
-   margin-top: -40px;
-}
+
+
 .Para2 {
     display: flex;
     outline: auto;
@@ -65,14 +62,17 @@ nav a :hover {
 .smart {
     border: 1px solid black;
     padding: 10px;
+    border-right: none;
 }
 .strong {
     border: 1px solid black;
     padding: 10px;
+    border-right: none;
 }
 .stable {
     border: 1px solid black;
     padding: 10px;
+    border-right: none;
 }
 button {
     background-color: #0b0b31;
@@ -85,4 +85,32 @@ footer {
     text-align: left;
     padding: 10px;
     margin-top: 40px;
+}
+
+.para3 {
+    background-color: hsl(240, 63%, 12%);
+    color: #f0f0f6;
+     display: flex;
+    outline: auto;
+  
+
+}
+.service {
+    padding: 10px;
+    border-right: none;
+    text-align: justify;
+    justify-content: space-around;
+}
+.opportunities {
+    padding: 10px;
+    border-right: none;
+    text-align: justify;
+    justify-content: space-around;
+
+}
+.news {
+    padding: 10px;
+    border-right: none;
+    text-align:justify; 
+   justify-content: space-around;
 }
