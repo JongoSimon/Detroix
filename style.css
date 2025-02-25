@@ -7,13 +7,19 @@ body {
 
 .smallnavbar {
     background-color: #0b0b31;
-    padding: 10px;
+    padding: 15px;
     
+}
+.demo {
+    color: aliceblue;
+    text-decoration: none;
 }
 .headbar {
     color: #f0f0f6;
     float: right;
-    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
 }
 .header {
     display: flex;
@@ -21,6 +27,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     border-bottom:1px solid #0b0b31;
+    text-decoration: none;
 }
 .header h1{
     font-size: 24px;
@@ -32,12 +39,12 @@ nav {
     gap: 5px;
 }
 nav a {
-    text-decoration: none;
-    color: #f0f0f6;
-    font-size: 15px;
-    background-color: #0b0b31;
+     color: #f0f0f6;
+    background-color: #05052f;
     border-radius: 3px;
-    
+    padding-left: 10px;
+    padding-right: 10px; 
+    text-decoration: none;   
 }
 nav a :hover {
     color: #0b0b31;
@@ -56,61 +63,62 @@ nav a :hover {
 .Para2 {
     display: flex;
     outline: auto;
-  
 }
 
 .smart {
     border: 1px solid black;
     padding: 10px;
     border-right: none;
+    text-align: center;
 }
 .strong {
     border: 1px solid black;
     padding: 10px;
     border-right: none;
-}
+    text-align: center;
+  }
 .stable {
     border: 1px solid black;
     padding: 10px;
     border-right: none;
+    text-align: center;
 }
 button {
     background-color: #0b0b31;
     color: #f0f0f6;
     border-radius: 5px;
 }
-footer {
-    background-color: #0b0b31;
-    color:azure;
-    text-align: left;
-    padding: 10px;
-    margin-top: 40px;
-}
 
 .para3 {
-    background-color: hsl(240, 63%, 12%);
+    background-color: hsl(240, 74%, 20%);
     color: #f0f0f6;
-     display: flex;
-    outline: auto;
-  
-
+    display: flex;
+    /* justify-content: space-evenly; */
+   
 }
 .service {
     padding: 10px;
     border-right: none;
-    text-align: justify;
-    justify-content: space-around;
+    text-align:justify; 
+    flex: 1;
 }
 .opportunities {
     padding: 10px;
     border-right: none;
-    text-align: justify;
-    justify-content: space-around;
-
+    text-align:justify; 
+    flex: 1;
 }
 .news {
     padding: 10px;
     border-right: none;
     text-align:justify; 
-   justify-content: space-around;
+    flex: 1;
+}
+
+footer {
+    background-color: #0b0b31;
+    color:azure;
+    text-align: left;
+    padding: 10px;
+    
 }
